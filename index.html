@@ -1,0 +1,33 @@
+---
+layout: default
+---
+{%- comment -%}
+The pinned slot is simply the NEWEST digest-category post — swapping the pin
+each Sunday requires no file mutation, the sort does it. Regular listing below
+excludes digests so the same post never appears twice.
+{%- endcomment -%}
+{% assign latest_digest = site.categories.digest | first %}
+{% if latest_digest %}
+<section class="pinned">
+  <span class="pin-label">This week's digest</span>
+  <h2><a href="{{ latest_digest.url | relative_url }}">{{ latest_digest.title }}</a></h2>
+  <p>{{ latest_digest.description }}</p>
+</section>
+{% endif %}
+
+<section class="post-list">
+  {% for post in site.posts %}
+  {% unless post.categories contains 'digest' %}
+  <article class="post-card">
+    <div class="post-meta">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+      {%- for category in post.categories %}
+      <span class="badge badge-{{ category }}">{{ category }}</span>
+      {%- endfor %}
+    </div>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p>{{ post.description }}</p>
+  </article>
+  {% endunless %}
+  {% endfor %}
+</section>

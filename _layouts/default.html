@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- comment -%}
+  jekyll-seo-tag emits <title>, meta description, canonical, Open Graph,
+  Twitter card and JSON-LD from each page's front matter — the "proper
+  meta/OG tags" requirement lives in this one line, not hand-rolled tags.
+  {%- endcomment -%}
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-title" href="{{ '/' | relative_url }}">TechPulse <span>Daily</span></a>
+    <nav class="site-nav">
+      <a href="https://youtube.com/@techpulse-daily-io">YouTube</a>
+      <a href="https://instagram.com/techpulse.daily.io">Instagram</a>
+      <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+    </nav>
+  </header>
+  <main class="content">
+    {{ content }}
+  </main>
+  <footer class="site-footer">
+    <p>Automated daily briefs with a human editor. &copy; TechPulse Daily.</p>
+  </footer>
+</body>
+</html>

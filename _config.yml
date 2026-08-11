@@ -1,0 +1,33 @@
+# TechPulse Daily — the pipeline's owned-media spoke. Source of truth lives in
+# the private content-generator repo (blog/); scripts/publish_blog.sh syncs it
+# to the public Pages repo, where GitHub builds Jekyll automatically. Only
+# GitHub-Pages-whitelisted plugins below — anything else silently won't run.
+title: TechPulse Daily
+description: >-
+  Daily engineering news briefs and evergreen explainers — systems, networking,
+  databases, security, career — from an automated pipeline with a human editor.
+url: "https://ai-era-1729.github.io"
+baseurl: ""
+lang: en
+
+permalink: /:title/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Social identities jekyll-seo-tag folds into the JSON-LD / OG tags.
+twitter:
+  username: techpulse_io
+  card: summary
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+exclude:
+  - README.md
