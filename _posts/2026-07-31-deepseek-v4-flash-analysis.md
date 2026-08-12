@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "DeepSeek V4 Flash Analysis"
-description: "DeepSeek V4 Flash performance and intelligence analysis, including price and impact on software engineering workflows and code review processes."
+description: "Performance and price analysis of DeepSeek V4 Flash intelligence upgrade, including impact on code review and sprint velocity."
 date: 2026-07-31
 categories: [news]
 ---
