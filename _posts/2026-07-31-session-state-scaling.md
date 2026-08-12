@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Session State Scaling"
-description: "Learn how to scale user session state beyond local server memory, avoiding dropped connections and enabling zero-downtime releases in distributed systems."
+description: "Learn how to manage user session state when deploying to multiple containers, avoiding dropped connections and maintaining zero-downtime releases."
 date: 2026-07-31
 categories: [news]
 ---
