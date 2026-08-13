@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pareto Principle in Software"
-description: "Apply the Pareto principle to software development to optimize core features and improve user retention by focusing on high-traffic user flows."
+description: "The Pareto principle in software development explains how focusing on core user flows can improve product retention and reduce waste in feature development by identifying"
 date: 2026-08-07
 categories: [news]
 ---
