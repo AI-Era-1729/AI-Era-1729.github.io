@@ -4,6 +4,7 @@ title: "AI Coding Tool Limitations on Codebase Edge Cases"
 description: "Evaluating LLM coding tools on non-boilerplate edge cases reveals blind spots that introduce subtle architectural bugs and increase code review costs."
 date: 2026-08-03
 categories: [news]
+youtube_id: LQP_wMfaZx0
 ---
 
 Measuring AI coding tools on standard boilerplate gives engineering teams a false sense of security.
