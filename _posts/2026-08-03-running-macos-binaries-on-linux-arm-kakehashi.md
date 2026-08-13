@@ -4,6 +4,7 @@ title: "Running macOS Binaries on Linux ARM: Kakehashi"
 description: "Kakehashi translates macOS Mach-O binaries to run on Linux ARM, offering a path to reduce Mac CI costs despite current ABI and syscall translation limits."
 date: 2026-08-03
 categories: [news]
+youtube_id: rUjx26ppYk8
 ---
 
 Running macOS workloads on Linux infrastructure sounds like an academic exercise until you look at your cloud bill for Mac build instances.
