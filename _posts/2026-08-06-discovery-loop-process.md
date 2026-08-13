@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Discovery Loop Process"
-description: "The discovery loop helps engineering teams test core assumptions by involving developers in user research and prototype testing to build better products"
+description: "Shortening the discovery loop by involving engineers in user research to test core assumptions and improve software design and development efficiency"
 date: 2026-08-06
 categories: [news]
 ---
