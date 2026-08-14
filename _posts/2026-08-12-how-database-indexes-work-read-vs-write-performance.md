@@ -4,6 +4,7 @@ title: "How Database Indexes Work: Read vs Write Performance"
 description: "A database index replaces slow full table scans with sorted lookup maps and memory pointers, reducing query execution time while adding write overhead."
 date: 2026-08-12
 categories: [evergreen]
+youtube_id: 9ADgPCNHHqU
 ---
 
 You do not read a seven-hundred-page textbook line by line just to find one definition. You flip to the index at the back, find the topic alphabetically, get the page number, and open directly to it.
