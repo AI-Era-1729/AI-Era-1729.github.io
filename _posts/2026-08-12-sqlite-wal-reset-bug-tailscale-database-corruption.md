@@ -4,6 +4,7 @@ title: "SQLite WAL-Reset Bug: Tailscale Database Corruption"
 description: "Tailscale's investigation into repeated control plane database corruption uncovered a 16-year-old WAL-reset concurrency bug in SQLite's source code."
 date: 2026-08-12
 categories: [news]
+youtube_id: 81wkbTZMZ-c
 ---
 
 Tailscale investigated repeated control plane database corruptions and helped SQLite developers identify a rare data race in SQLite's source code. The issue, dubbed the "WAL-Reset bug," occurred when a write transaction intersected with a checkpoint, causing uncopied database pages to be permanently lost.
