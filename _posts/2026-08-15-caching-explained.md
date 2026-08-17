@@ -4,6 +4,7 @@ title: "Caching Explained"
 description: "Learn how caching works, including its benefits and challenges, such as managing data freshness and consistency to optimize software performance."
 date: 2026-08-15
 categories: [evergreen]
+youtube_id: sV5oNZHqCZg
 ---
 
 If you look up the same door access code five times a day, you stop walking to the binder down the hall. You write it on a sticky note and put it on your monitor.
