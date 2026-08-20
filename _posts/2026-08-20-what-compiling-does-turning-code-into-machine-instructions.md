@@ -4,6 +4,7 @@ title: "What Compiling Does: Turning Code into Machine Instructions"
 description: "Learn how a compiler translates high‑level code into binary machine instructions, checks syntax errors, optimizes execution steps, and generates runnable output."
 date: 2026-08-20
 categories: [evergreen]
+youtube_id: zZ9cKsaGno8
 ---
 
 Turning a kitchen recipe written in English into the exact electrical pulses an oven follows is like compiling code.
