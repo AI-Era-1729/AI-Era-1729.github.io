@@ -4,6 +4,7 @@ title: "Universal coverage saves $1.04 trillion, 114k lives/year"
 description: "A Yale preprint finds Medicare‑for‑All‑type universal health coverage would cut US health spending by about $1.04 trillion and avert roughly 114,000 deaths each year."
 date: 2026-08-19
 categories: [news]
+youtube_id: IdZ6_pk8Do8
 ---
 
 Researchers at Yale School of Public Health released a preprint study modeling the effects of a Medicare for All–type universal health coverage in the United States. The model predicts the system would cut annual health expenditures by about $1.04 trillion and prevent roughly 114,000 deaths each year.
