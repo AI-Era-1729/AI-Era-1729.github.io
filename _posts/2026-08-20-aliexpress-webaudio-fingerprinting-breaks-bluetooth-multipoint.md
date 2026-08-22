@@ -4,6 +4,7 @@ title: "AliExpress WebAudio fingerprinting breaks Bluetooth multipoint"
 description: "AliExpress loads hidden WebAudio contexts that stay active, causing Bluetooth multipoint headphones to stop switching back to the phone while the site is open."
 date: 2026-08-20
 categories: [news]
+youtube_id: h7HbrmUXlNM
 ---
 
 AliExpress’s homepage loads two hidden WebAudio contexts that run continuously and connect to the system audio output. The audio processing prevents Bluetooth multipoint headphones from switching back to a phone when the page is open.
